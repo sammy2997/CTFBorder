@@ -1,0 +1,6 @@
+framework module CTFBorder {
+  umbrella header "CTFBorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

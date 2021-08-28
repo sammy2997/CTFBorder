@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +18,43 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jpz-1x-ceI">
+                                <rect key="frame" x="113.5" y="150" width="148" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your occupation" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wej-dv-tjO">
+                                <rect key="frame" x="95.5" y="234" width="184.5" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2z1-5j-rNu">
+                                <rect key="frame" x="166.5" y="308" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jpz-1x-ceI" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="150" id="JGO-d1-bE4"/>
+                            <constraint firstItem="Wej-dv-tjO" firstAttribute="top" secondItem="Jpz-1x-ceI" secondAttribute="bottom" constant="50" id="NcD-MD-3OY"/>
+                            <constraint firstItem="2z1-5j-rNu" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="PJr-ce-tDO"/>
+                            <constraint firstItem="Jpz-1x-ceI" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="QUb-no-wAI"/>
+                            <constraint firstItem="2z1-5j-rNu" firstAttribute="top" secondItem="Wej-dv-tjO" secondAttribute="bottom" constant="40" id="Qf4-4t-8Kc"/>
+                            <constraint firstItem="Wej-dv-tjO" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Xnd-St-g9o"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblView" destination="2z1-5j-rNu" id="L1q-Rf-5vg"/>
+                        <outlet property="textfield1" destination="Jpz-1x-ceI" id="fRr-ug-dn7"/>
+                        <outlet property="textfield2" destination="Wej-dv-tjO" id="hcw-W7-Dla"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="58" y="102"/>
         </scene>
     </scenes>
 </document>

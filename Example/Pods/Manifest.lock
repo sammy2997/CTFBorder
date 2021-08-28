@@ -1,0 +1,16 @@
+PODS:
+  - CTFBorder (0.1.0)
+
+DEPENDENCIES:
+  - CTFBorder (from `../`)
+
+EXTERNAL SOURCES:
+  CTFBorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTFBorder: 19f205bdcbd8af79d2c496ac8bc86de6592cc61a
+
+PODFILE CHECKSUM: 454c98268fabe028bde33fb8d03aacb74710f162
+
+COCOAPODS: 1.10.2

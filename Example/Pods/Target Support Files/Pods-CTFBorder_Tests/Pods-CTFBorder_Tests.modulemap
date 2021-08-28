@@ -1,0 +1,6 @@
+framework module Pods_CTFBorder_Tests {
+  umbrella header "Pods-CTFBorder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
