@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		090C1F5662BA9EB245B2E1F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2DF528999C0E32B14AC18C2A /* Pods_CTFBorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTFBorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4825034B9ADAC27ED09F3B98 /* CTFBorder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTFBorder.podspec; path = ../CTFBorder.podspec; sourceTree = "<group>"; };
+		4825034B9ADAC27ED09F3B98 /* CTFBorder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTFBorder.podspec; path = ../CTFBorder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* CTFBorder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTFBorder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
